@@ -1,4 +1,4 @@
-<?php namespace App\Commands;
+<?php namespace Estacionamiento\Commands;
 
 abstract class Command {
 

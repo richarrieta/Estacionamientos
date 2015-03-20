@@ -1,4 +1,4 @@
-<?php namespace App;
+<?php namespace Estacionamiento;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

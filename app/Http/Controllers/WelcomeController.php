@@ -1,4 +1,4 @@
-<?php namespace App\Http\Controllers;
+<?php namespace Estacionamiento\Http\Controllers;
 
 class WelcomeController extends Controller {
 
@@ -20,7 +20,7 @@ class WelcomeController extends Controller {
 	 */
 	public function __construct()
 	{
-		$this->middleware('guest');
+		$this->middleware('admin');
 	}
 
 	/**
@@ -31,6 +31,10 @@ class WelcomeController extends Controller {
 	public function index()
 	{
 		return view('welcome');
+	}
+
+	public function postRegistrar(AddUser $request){
+		$nombre = $request->get('user');
 	}
 
 }
