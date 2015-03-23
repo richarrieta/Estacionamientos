@@ -16,7 +16,7 @@ class Kernel extends HttpKernel {
 		'Illuminate\Session\Middleware\StartSession',
 		'Illuminate\View\Middleware\ShareErrorsFromSession',
 		'Estacionamiento\Http\Middleware\VerifyCsrfToken',
-		'Estacionamiento\Http\Middleware\DbTransaction',
+		//'Estacionamiento\Http\Middleware\DbTransaction',
 	];
 
 	/**
