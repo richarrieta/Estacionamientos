@@ -43,7 +43,19 @@
     <body>
         <!-- topbar starts -->
         <div class="navbar navbar-default" role="navigation">
-            <div id="myfirstchart" style="height: 250px;"></div>
+            <div id="chartano" style="height: 250px;"></div>
+        </div>
+        <!-- topbar starts -->
+        <div class="navbar navbar-default" role="navigation">
+            <div id="chartarea" style="height: 250px;"></div>
+        </div> 
+
+        <div class="morris-hover morris-default-style" style="left: 0px; top: 173px;">
+            <div class="morris-hover-row-label"></div>
+            <div class="morris-hover-point" style="color: #0b62a4">
+            </div>
+            <div class="morris-hover-point" style="color: #7a92a3">
+            </div>                
         </div>
     </body>
 </html>
