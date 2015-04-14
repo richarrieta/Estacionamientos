@@ -27,7 +27,7 @@ class GraficoBarraController extends Controller{
         $array[0]->montos = 101212;         
         
         $array[1] = new \stdClass();
-        $array[1]->ano = '2014';
+        $array[1]->ano = '2015';
         $array[1]->casos = 2021; 
         $array[1]->montos = 201100; 
         
